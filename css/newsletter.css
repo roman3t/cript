@@ -1,0 +1,131 @@
+.container .main .main-text{
+    max-width: 80%;
+}
+
+.container .main .main-text p:first-child{
+    font-size: 42px;
+    font-weight: 500;
+    padding-bottom: 60px;
+}
+
+.container .main .main-text p:nth-child(2){
+    font-size: 16px;
+    padding-bottom: 102px;
+    font-weight: 400;
+}
+
+.container .main{
+    height: 100vh;
+    width: 70vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .main .newsletter{
+    display: flex;
+    height: 55px;
+}
+
+.container .main .newsletter-in{
+    border: 1px black solid;
+    border-radius: 8px 0 0 8px;
+    width: 80%;
+}
+
+.container .main .newsletter-in:focus-visible {
+    outline: 0px;
+}
+
+.container .main .newsletter input{
+    padding-left: 20px;
+}
+
+.container .main .newsletter-a{
+    display: block;
+    width: 20%;
+    background-color: black;
+    border-radius: 0 8px 8px 0;
+}
+.container .main .newsletter-a a{
+    font-weight: 500;
+}
+.container .main .newsletter a{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.container .main .newsletter-a:hover{
+    background-color: #f1c40f;
+    border: 1px black solid;
+    border-left: 0;
+}
+.container .main .newsletter a:hover{
+    color: black;
+    font-weight: 600;
+}
+
+/* */
+.background-side{
+    height: 100vh;
+    width: 30vw;
+    background-color: aqua;
+    background-image: url("../img/backgroundmain.jpeg");
+    background-size: cover;
+}
+
+.background-side .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+
+::placeholder{
+    color: #ffd32a;
+}
+
+
+@media (max-width: 750px) {
+    body {
+        background-image: url("../img/backgroundmain.jpeg");
+    }
+    .background-side{
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .container .main{
+        width: 100vh;
+    }
+
+    .container .main .main-text{
+        color: white;
+    }
+    
+    .container .main .newsletter{
+        height: 50px;
+    }
+
+    
+    .container .main .newsletter .newsletter-in{
+        width: 75%;
+        border-radius: 8px 0 0 8px;
+    }
+
+    .container .main .newsletter .newsletter-a{
+        font-size: 12px;
+    }
+  }

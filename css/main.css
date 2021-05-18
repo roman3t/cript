@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+}
+
+.navbar div{
+    padding-left: 40px;
+}
+
+.navbar ul{
+    padding-right: 40px;
+    list-style: none;
+}
+
+.navbar ul li{
+    float: left;
+}
+
+.navbar a{    
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+    color: #ffd32a;
+}
+
+.menu-hmb{
+    display: none;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    z-index: 2;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.menu-btn span{
+    display: block;
+    height: 1px;
+    left: 10px;
+    background-color: black;
+    position: relative;
+} 
+    .menu-btn span:nth-child(1){
+        top: 18px;
+        width: 25px;
+    }
+    .menu-btn span:nth-child(2){
+        top: 27px;
+        width: 25px;
+    }
+
+
+.fx-top{
+    top: 0;
+}
+
+.fx-btn{
+    bottom: 0;
+}
+
+.selected{
+    color: #ffd32a !important;
+}
+
+
+@media (max-width: 750px) {
+
+    .navbar{
+        display: none;
+    }
+
+    .menu-hmb{
+        display: block;
+    }
+
+
+     
+
+}
+
+
