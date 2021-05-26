@@ -50,13 +50,13 @@ body{
 
 .menu-hmb{
     display: none;
-    top: 10px;
-    right: 10px;
+    top: 6px;
+    right: 6px;
     position: absolute;
     z-index: 2;
     width: 45px;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 6px;
     background-color: white;
     cursor: pointer;
 }
@@ -74,7 +74,8 @@ body{
     }
     .menu-btn span:nth-child(2){
         top: 27px;
-        width: 25px;
+        left: 17px;
+        width: 18px;
     }
 
 
@@ -91,7 +92,7 @@ body{
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
 
     .navbar{
         display: none;

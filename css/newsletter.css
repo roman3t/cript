@@ -43,6 +43,7 @@
     padding-left: 20px;
 }
 
+
 .container .main .newsletter-a{
     display: block;
     width: 20%;
@@ -88,12 +89,13 @@
 }
 
 
+
 ::placeholder{
     color: #ffd32a;
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
     body {
         background-image: url("../img/backgroundmain.jpeg");
     }
@@ -110,22 +112,7 @@
     .container .main{
         width: 100vh;
     }
-
-    .container .main .main-text{
-        color: white;
-    }
     
-    .container .main .newsletter{
-        height: 50px;
-    }
 
-    
-    .container .main .newsletter .newsletter-in{
-        width: 75%;
-        border-radius: 8px 0 0 8px;
-    }
 
-    .container .main .newsletter .newsletter-a{
-        font-size: 12px;
-    }
   }

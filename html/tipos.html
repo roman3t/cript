@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipos</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
+
 <body>
     <div class="navbar fx-top">
         <div class="logo">
-            <a class="" href="../index.html" >cript</a>
+            <a class="" href="../index.html">cript</a>
         </div>
         <ul>
             <li><a class="" href="quees.html">que es</a></li>
@@ -20,5 +23,126 @@
             <li><a class="" href="blockchain.html">blockchain</a></li>
         </ul>
     </div>
+    <div class="container">
+
+
+        <div class="space">
+            <h1>Tipos</h1>
+            <div class="space-button">
+                <a class="btncoin" onclick="openCoin('bitcon')">Bitcoin BTC</a>
+                <a class="btncoin" onclick="openCoin('etherum')">Ethereum</a>
+                <a class="btncoin" onclick="openCoin('dogecoin')">Dogecoin</a>
+                <a class="btncoin" onclick="openCoin('cardano')">Cardano</a>
+                <a class="btncoin" onclick="openCoin('litecoin')">Litecoin LTC</a>
+                <a class="btncoin" onclick="openCoin('binance')">Binance Coin BNB</a>
+                <a class="btncoin" onclick="openCoin('polkadot')">Polkadot DOT</a>
+                <a class="btncoin" onclick="openCoin('ripple')">Ripple XRP</a>
+            </div>
+            <div class="text-content">
+                <div id="bitcon" class=" coin">
+                    <h2>Bitcon</h2>
+                    <p>Bitcoin fue creado en 2009 por alguien identificado bajo el seudónimo de Satoshi Nakamoto con
+                        tecnología blockchain. Su objetivo fue de ser utilizado como un método de pago que no esté
+                        afectado por la supervisión gubernamental, retrasos en las transferencias o tarifas de
+                        transacción. Actualmente, Bitcoin se utiliza principalmente como forma de inversión. Se puede
+                        decir que sus características se asemejan más a las materias primas que a las monedas
+                        tradicionales. Sin embargo, su alta volatilidad le impiden ser una alternativa legal al dinero
+                        fiduciario. Es considerada la más importante entre los diferentes tipos de criptomoneda por los
+                        expertos.</p>
+                </div>
+
+                <div id="etherum" class=" coin" style="display:none">
+                    <h2>Etherum</h2>
+                    <p>Después de Bitcoin, Ethereum es la moneda digital con mayor capitalización de mercado entre los
+                        diferentes tipos de criptomoneda. Su cadena le permite crear aplicaciones basadas en la
+                        tecnología blockchain, así como sus propios tokens individuales. El Ether, se encarga de
+                        proporcionar el combustible necesario para procesar las aplicaciones descentralizadas de la red.
+                        Las emisiones de éter están limitadas a 18 millones por año, que es el 25% del suministro
+                        inicial. Y, los costos de transacción son calculados con base en su complejidad, ancho de banda
+                        y almacenamiento.</p>
+                </div>
+
+                <div id="dogecoin" class=" coin" style="display:none">
+                    <h2>Dogecoin</h2>
+                    <p>Fue creada en un protocolo Bitcoin modificado con el fin de llegar a más destinatarios que el
+                        mismo BTC. Actualmente, en el mercado circulan 128,2 mil millones de DOGE, y cada moneda se
+                        divide en 100.000.000 de lugares decimales. La ventaja de esta criptomoneda es que es barata, ya
+                        que una moneda cuesta solo $0.05037. Las recompensas mineras de Dogecoin han disminuido de
+                        $1,000,000 a $10,000. DUX. Los bloques se extraen con relativa rapidez, aproximadamente cada 1
+                        minuto.</p>
+                </div>
+
+                <div id="cardano" class=" coin" style="display:none">
+                    <h2>Cardano</h2>
+                    <p>ADA es uno de los tipos de criptomoneda que cualquier usuario, en cualquier parte del mundo,
+                        puede usar como un intercambio seguro de valor, sin un intermediario externo. Todas las
+                        transacciones son registradas permanente, de forma segura y transparente en la blockchain de
+                        Cardano. Cada titular de ADA también posee acciones en la red Cardano. Cada ADA almacenado en la
+                        billetera digital se puede delegar en el fondo común o hipotecar al mismo fondo con el fin de
+                        aumentar la probabilidad de ganar recompensas.</p>
+                </div>
+
+                <div id="litecoin" class=" coin" style="display:none">
+                    <h2>Litecoin LTC</h2>
+                    <p>La moneda virtual Litecoin es una moneda de código abierto de igual a igual. Esto significa que
+                        el código fuente de Litecoin es público y cualquiera puede acceder a él. Es una red global de
+                        pagos de código abierto, totalmente descentralizada y un sistema de transacciones sin
+                        administradores. LTC es uno de los tipos de criptomoneda basada en una red peer-to-peer que
+                        permite pagos instantáneos. Además, es capaz de garantizar la transparencia del proyecto y
+                        muestra cómo funciona en cada una de sus etapas.</p>
+                </div>
+
+                <div id="binance" class=" coin" style="display:none">
+                    <h2>Binance</h2>
+                    <p>Binance Coin (BNB), es una criptomoneda emitida por el intercambio más grande del mundo, Binance.
+                        Utilizado Inicialmente, como un token de utilidad anclado con el funcionamiento del intercambio,
+                        ahora es un medio de pago en toda regla. También, ofrece la ventaja de poder reducir el costo de
+                        las tarifas por transacción a las personas con tokens BNB en su cuenta. Adicionalmente, se
+                        pueden recibir cierta cantidad de tokens como retribución por recomendar el uso del intercambio
+                        a otras personas.</p>
+                </div>
+
+                <div id="polkadot" class=" coin" style="display:none">
+                    <h2>Polkadot LTC</h2>
+                    <p>Polkadot es un proyecto de blockchain que quiere resolver un problema basado en inexactitudes de
+                        comunicación entre diferentes cadenas. La forma en que funcionan las cadenas de bloques limita
+                        la posibilidad de interferencias externas. Lo que garantiza un alto nivel de seguridad, pero
+                        dificulta la comunicación entre diferentes cadenas de bloques. Polkadot procesa diferentes
+                        transacciones para diferentes blockchains en paralelo. Los validadores que apilan los tokens DOT
+                        y aprueban operaciones individuales. Son elegidos por nominados que aseguran la cadena
+                        principal.</p>
+                </div>
+                <div id="ripple" class=" coin" style="display:none">
+                    <h2>Ripple LTC</h2>
+                    <p>Ripple XRP es uno de los tipos de criptomoneda más grandes y conocidas del mundo y se
+                        comercializa en muchos intercambios de cifrado diferentes a nivel mundial. También es una red de
+                        pago para bancos con el objetivo de hacer que las transacciones de pago internacionales entre
+                        ellos sean más eficientes y rentables. El proyecto se dedica principalmente a las transacciones
+                        de pago entre diferentes áreas monetarias y trata de hacer que los corredores de pago
+                        ineficientes sean eficientes.</p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <div class="question">
+            <img src="../img/tipos.jpeg" alt="">
+        </div>
+    </div>
+
+    <script>
+        function openCoin(coinName) {
+            var i;
+            var x = document.getElementsByClassName("coin");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(coinName).style.display = "block";
+        }
+    </script>
 </body>
+
 </html>
